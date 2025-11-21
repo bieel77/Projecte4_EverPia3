@@ -62,19 +62,20 @@ Durant el desenvolupament del projecte, hauràs d’afrontar encàrrecs en àree
 - Suport tècnic coordinat amb l’equip EverPia  
 
 ## Tasques a desenvolupar
+   - [Tasca01](Tasca-01)
+   - [Tasca02](Tasca-02)
+   - [Tasca03](Tasca-03)
+   - [Tasca04](Tasca-04)
+   - [Tasca05](Tasca-05)
+   - [Tasca06](Tasca-06)
+   - [Tasca07](Tasca-07)
+   - [Tasca08](Tasca-08)
+   - [Tasca09](Tasca-09)
+   - [Tasca10](Tasca-10)
+   - [Tasca11](Tasca-11)
+   - [Tasca12](Tasca-12)
+   - [Tasca13](Tasca-13)
+   - [Tasca14](Tasca-14)
+   - [Tasca15](Tasca-15)
+   - [Tasca16](Tasca-16)
 
-- **T01:** DRP: còpies de seguretat. Estudi cas client (treball cooperatiu)
-- **T02:** DPR: còpies de seguretat. Cas pràctic 
-- **T03:** Pla de recuperació davant desastres: imatges del sistema  
-- **T04:** Accés remot  
-- **T05:** Accés Remot. Connexió via SSH (tasca individual)
-- **T06:** Accés remot. Escriptori remot (RDP) (tasca individual)
-- **T07:** Accés remot. Serveis d’assistència remota (tasca en parelles) 
-- **T08:** Auditoria de Qualitat i Estandardització de Servidors (tasca individual) 
-- **T09:** Servidor fitxers Linux. NFS (tasca individual)
-- **T010:** Servidor impressió Linux. CUPS (tasca individual)
-- **T011:** Introducció a Figma: nocions bàsiques de disseny d’interfícies
-- **T012:** Fonaments del Disseny Web Comercial: Landing Page + Procés de Checkout
-- **T013:** Disseny d’un E-commerce en Figma (Landing Page + Checkout)
-- **T014:** Sostenibilitat. Prova Escrita - 1h
-- **T015:** Com de circular és la meva família professional?
