@@ -214,3 +214,4 @@ ssh -D 9876 usuari@192.168.56.102
 
 ### I per últim instal·lem el wireshark al Windows per veure que el túnel funciona correctament.
 
+<img width="745" height="551" alt="image" src="https://github.com/user-attachments/assets/31659738-f8c7-4870-898b-c899083f6a47" />
