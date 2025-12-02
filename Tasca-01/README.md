@@ -131,7 +131,7 @@ Com es garanteix que les dades de Comptabilitat/Clients compleixen amb:
 ## Entregues
 [Treball 1: Individual](solucio_individual.md)
 ---
-[Treball 2: Individual](solucio_parelles.md)
+[Treball 2: Parelles](solucio_parelles.md)
 ---
-[Treball 3: Individual](solucio_grupal.md)
+[Treball 3: Grupal](solucio_grupal.md)
 ---
