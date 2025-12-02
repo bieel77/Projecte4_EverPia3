@@ -128,4 +128,5 @@ Com es garanteix que les dades de Comptabilitat/Clients compleixen amb:
   https://youtu.be/PM_M4Iz6I4o?si=F7DRyDDTZE3hjWn8
 
 ---
-
+## Entregues
+[Treball 1: Individual](Tasca-01/solucio_individual.md)
