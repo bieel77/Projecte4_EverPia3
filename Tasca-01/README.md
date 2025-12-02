@@ -129,4 +129,4 @@ Com es garanteix que les dades de Comptabilitat/Clients compleixen amb:
 
 ---
 ## Entregues
-[Treball 1: Individual](Tasca-01/solucio_individual.md)
+[Treball 1: Individual](solucio_individual.md)
