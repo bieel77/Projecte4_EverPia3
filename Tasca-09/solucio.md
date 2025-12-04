@@ -112,6 +112,41 @@ sudo useradd -G admins -m -s /bin/bash admin01
 
 <img width="533" height="14" alt="image" src="https://github.com/user-attachments/assets/352af637-a8fc-44f5-90a0-fdc80aa3768b" />
 
+### Posteriorment creem el directori per els projectes de desenvolupament
+
+```bash
+sudo mkdir /srv/nfs/dev_projects -p
+```
+
+<img width="458" height="17" alt="image" src="https://github.com/user-attachments/assets/d5cfc500-958e-427f-93b3-f09d44299168" />
+
+### I ara creem el directori per les eines d'administració
+
+```bash
+sudo mkdir /srv/nfs/admin_tools
+```
+
+<img width="400" height="16" alt="image" src="https://github.com/user-attachments/assets/f0f158ee-7f12-4679-aec4-6c2f6bb457db" />
+
+ ### Ara fiquem els permisos perquè el grup devs tingui control total de les seves carpetes
+
+ ```bash
+sudo chown root:devs /srv/nfs/dev_projects
+```
+
+<img width="485" height="16" alt="image" src="https://github.com/user-attachments/assets/f608cde3-fab6-4334-bdf5-96c0eb031a41" />
+
+### I el mateix amb el grup admins però amb les seves carpetes
+
+```bash
+sudo chown root:admins /srv/nfs/admin_tools
+```
+
+<img width="494" height="18" alt="image" src="https://github.com/user-attachments/assets/e70974a9-c295-4a68-80bf-4d0a9daa8cc2" />
+
+
+
+
 
 
 
