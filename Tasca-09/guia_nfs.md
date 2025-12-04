@@ -128,7 +128,7 @@ sudo mkdir /srv/nfs/admin_tools
 
 <img width="400" height="16" alt="image" src="https://github.com/user-attachments/assets/f0f158ee-7f12-4679-aec4-6c2f6bb457db" />
 
- ### Ara fiquem els permisos perquè el grup devs tingui control total de les seves carpetes
+ ### Ara fiquem la següent comanda perquè tingui propietat
 
  ```bash
 sudo chown root:devs /srv/nfs/dev_projects
@@ -136,13 +136,38 @@ sudo chown root:devs /srv/nfs/dev_projects
 
 <img width="485" height="16" alt="image" src="https://github.com/user-attachments/assets/f608cde3-fab6-4334-bdf5-96c0eb031a41" />
 
-### I el mateix amb el grup admins però amb les seves carpetes
+### El mateix però amb l'altre carpeta
 
 ```bash
 sudo chown root:admins /srv/nfs/admin_tools
 ```
 
 <img width="494" height="18" alt="image" src="https://github.com/user-attachments/assets/e70974a9-c295-4a68-80bf-4d0a9daa8cc2" />
+
+### Ara per assignar els permisos perquè tingui control total al grup
+
+```bash
+sudo chmod -R 770 /srv/nfs/dev_projects
+```
+
+<img width="465" height="17" alt="image" src="https://github.com/user-attachments/assets/319d5bd0-067a-4382-b40f-1ba6ee2e7325" />
+
+### El mateix però amb l'altre grup
+
+```bash
+
+sudo chmod -R 770 /srv/nfs/admin_tools
+```
+
+<img width="444" height="20" alt="image" src="https://github.com/user-attachments/assets/0397619b-c580-4a1b-bc35-988722a050ed" />
+
+### Ara haurem d'instal·lar el servidor NFS aplicant la següent comanda:
+
+```bash
+sudo apt install nfs-kernel-server
+```
+
+<img width="959" height="705" alt="image" src="https://github.com/user-attachments/assets/04280f5b-3442-4a31-84eb-f55c1226da53" />
 
 
 
