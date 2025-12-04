@@ -73,7 +73,7 @@
 
 ## Guia NFS
 
-### Abans d'executar el Zorin fiquem l'interfície de xarxa en NAT i HostOnly
+### Abans d'obrir les màquines fiquem les interfícies de xarxa en NAT i Host-Only
 
 <img width="857" height="486" alt="image" src="https://github.com/user-attachments/assets/70b08955-79c6-4907-a861-6505b8531f21" />
 
