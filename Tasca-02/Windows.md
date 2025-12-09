@@ -115,7 +115,7 @@ Escollim l'idioma que vulguem, i seguim amb l'instal·lació
 
 <img width="982" height="617" alt="image" src="https://github.com/user-attachments/assets/765b3361-3551-4260-9b26-82e13403467a" />
 
-### I després selecciona la carpeta de Home i a "Continue"
+### I després selecciona la carpeta My Documents i a "Continue"
 
 <img width="995" height="565" alt="image" src="https://github.com/user-attachments/assets/20823a5b-b38b-4603-9d52-cf6ec5b496ea" />
 
@@ -153,6 +153,10 @@ Escollim l'idioma que vulguem, i seguim amb l'instal·lació
 <img width="996" height="559" alt="image" src="https://github.com/user-attachments/assets/4a5f0bbe-ce20-47a4-bf31-18051b4a5afd" />
 
 <img width="987" height="566" alt="image" src="https://github.com/user-attachments/assets/f9dde5da-22f3-433c-bb06-0e48b335a595" />
+
+## Restauració carpeta Documents
+
+<img width="1010" height="620" alt="image" src="https://github.com/user-attachments/assets/66828b18-da4b-4491-b1db-797168c58b6f" />
 
 
 
