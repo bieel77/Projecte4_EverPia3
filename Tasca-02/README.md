@@ -65,4 +65,6 @@ Un aspecte molt important a nivell de seguretat és que la unitat de backup ha d
 ---
 
 [Guia Server Linux](LinuxServer.md)
+---
 [Guia Windows](Windows.md)
+---
