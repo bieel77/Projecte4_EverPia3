@@ -128,6 +128,10 @@ Escollim l'idioma que vulguem, i seguim amb l'instal·lació
 
 <img width="991" height="564" alt="image" src="https://github.com/user-attachments/assets/50aebd69-de7a-4d9d-849e-93aefb365784" />
 
+### I creem la carpeta Prova 
+
+<img width="1012" height="692" alt="image" src="https://github.com/user-attachments/assets/3391fe25-a46b-4c64-9c7d-b0a1e82234f0" />
+
 ### Ara creerem un altre BackUp per Google Drive, començant per aplicant-li un nom
 
 <img width="998" height="641" alt="image" src="https://github.com/user-attachments/assets/2bd7dddb-c38e-4d8c-acfe-07377459222c" />
@@ -156,7 +160,7 @@ Escollim l'idioma que vulguem, i seguim amb l'instal·lació
 
 ## Restauració carpeta Documents
 
-<img width="1010" height="620" alt="image" src="https://github.com/user-attachments/assets/66828b18-da4b-4491-b1db-797168c58b6f" />
+
 
 
 
