@@ -117,7 +117,8 @@ Escollim l'idioma que vulguem, i seguim amb l'instal·lació
 
 ### I després selecciona la carpeta de Home i a "Continue"
 
-<img width="983" height="578" alt="image" src="https://github.com/user-attachments/assets/bf3f1107-ad76-484c-9dd2-cec851b513e2" />
+<img width="995" height="565" alt="image" src="https://github.com/user-attachments/assets/20823a5b-b38b-4603-9d52-cf6ec5b496ea" />
+
 
 ### I fiques que els BackUps que es faran en el disc secundari  es repeteixin cada hora
 
