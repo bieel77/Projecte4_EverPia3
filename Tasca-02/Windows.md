@@ -1,4 +1,4 @@
-# Guia Còpies de Seguretat
+# Guia Windows Còpies de Seguretat
 
 ### Primer de tot ens exportem la ISO de Windows i creem la màquina amb les següents característiques:
 
