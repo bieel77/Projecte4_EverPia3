@@ -171,6 +171,17 @@ sudo chmod -R 770 /srv/nfs/admin_tools
 
 <img width="444" height="20" alt="image" src="https://github.com/user-attachments/assets/0397619b-c580-4a1b-bc35-988722a050ed" />
 
+### I comprovem els permisos de les carpetes amb les següents comandes:
+
+```bash
+ls -ld /srv/nfs/admin_tools
+```
+```bash
+ls -ld /srv/nfs/dev_projects
+```
+
+<img width="521" height="86" alt="image" src="https://github.com/user-attachments/assets/14bfbae7-904b-4ee7-8334-1da24f9bf030" />
+
 ### Ara haurem d'instal·lar el servidor NFS aplicant la següent comanda:
 
 ```bash
