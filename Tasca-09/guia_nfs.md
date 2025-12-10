@@ -87,6 +87,8 @@ sudo apt upgrade && sudo apt update
 
 <img width="439" height="33" alt="image" src="https://github.com/user-attachments/assets/d993048a-e3e0-4b15-a467-cfa3f39d0f1c" />
 
+## Fase 2
+
 ### En la màquina del servidor començem creant els grups: devs i admins
 
 ```bash
@@ -111,6 +113,14 @@ sudo useradd -G admins -m -s /bin/bash admin01
 ``` 
 
 <img width="533" height="14" alt="image" src="https://github.com/user-attachments/assets/352af637-a8fc-44f5-90a0-fdc80aa3768b" />
+
+### I a la màquina física instal·lem la següent aplicació:
+
+<img width="1033" height="298" alt="image" src="https://github.com/user-attachments/assets/dc8b9bd1-ccf7-4c04-b1b2-538b2eff5870" />
+
+### I creem els usuaris dev01 i admin01
+
+<img width="736" height="424" alt="image" src="https://github.com/user-attachments/assets/e8a5d042-6dc7-4ba5-a56d-d29356d08b74" />
 
 ### Posteriorment creem el directori per els projectes de desenvolupament
 
@@ -169,6 +179,8 @@ sudo apt install nfs-kernel-server
 
 <img width="959" height="705" alt="image" src="https://github.com/user-attachments/assets/04280f5b-3442-4a31-84eb-f55c1226da53" />
 
+
+## Fase 3
 
 
 
