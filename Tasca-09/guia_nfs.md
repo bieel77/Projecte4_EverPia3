@@ -190,9 +190,11 @@ sudo apt install nfs-kernel-server
 
 <img width="959" height="705" alt="image" src="https://github.com/user-attachments/assets/04280f5b-3442-4a31-84eb-f55c1226da53" />
 
+### (Usuaris i grups creats, amb cada usuari al seu grup)
+
+<img width="353" height="92" alt="image" src="https://github.com/user-attachments/assets/830a8eb1-2ac1-4233-8caa-c0ffb0a93e30" />
 
 ## Fase 3
-
 
 
 
