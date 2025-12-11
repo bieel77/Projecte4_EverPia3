@@ -194,9 +194,111 @@ sudo apt install nfs-kernel-server
 
 <img width="353" height="92" alt="image" src="https://github.com/user-attachments/assets/830a8eb1-2ac1-4233-8caa-c0ffb0a93e30" />
 
+### Comprovem que l'instal·lació ha estat ben feta amb la següent comanda:
+
+```bash
+systemctl status nfs-kernel-server
+```
+<img width="740" height="224" alt="image" src="https://github.com/user-attachments/assets/d7805a27-92a5-4c3f-af5a-654a1ee34c6e" />
+
+### Ara entrem al arxiu de /etc/exports, i abaix del arxiu escrivim el següent:
+
+```bash
+/srv/nfs *(rw,sync,no_subtree_check)
+```
+<img width="743" height="230" alt="Captura de pantalla 2025-12-11 194734" src="https://github.com/user-attachments/assets/2a965c71-785c-493b-be5c-e3e51dfeb19c" />
+
+### I apliquem els canvis, i dps reiniciem el servei amb la següent comanda:
+
+```bash
+systemctl restart nfs-kernel-server
+```
+### Amb la següent comanda podrem veure quins arxius es poden exportar:
+
+```bash
+exportfs -u
+```
+<img width="319" height="74" alt="image" src="https://github.com/user-attachments/assets/ed4f07f8-c6fa-4f96-ab0c-c13e99d6b387" />
+
+### Podem veure quin port fa servir el nfs amb aquesta comanda:
+
+```bash
+rpcinfo -p 192.168.56.106
+```
+<img width="412" height="399" alt="image" src="https://github.com/user-attachments/assets/2011fb97-46c4-4259-8ca3-c1374025fe0c" />
+
+### Ara instal·lem el paquet de nfs-common amb la següent comanda:
+
+```bash
+sudo apt install nfs-common -y
+```
+<img width="555" height="214" alt="image" src="https://github.com/user-attachments/assets/109d6143-536f-4f4b-b112-7fa3eeb47aa0" />
+
+### Ara ens connectem al servidor amb la següent comanda, on veiem la carpeta /srv/nfs:
+
+```bash
+showmount -e 192.168.56.106
+```
+
 ## Fase 3
 
+### Per començar amb la tercera fase, ficarem la següent comanda:
 
+```bash
+mkdir /mnt/admin_tools
+```
 
+### Ara per muntar el recurs ho farem amb la següent comanda:
+
+```bash
+mount -t nfs 192.168.56.106:/srv/nfs/admin_tools /mnt/admin_tools
+```
+
+## Prova 2 (Solució)
+
+### Primer de tot en la màquina server, substituim lo que hem ficat abans per lo següent:
+
+```bash
+/srv/nfs/admin_tools *(rw,sync,no_subtree_check,no_root_squash)
+/srv/nfs/dev_projects *(rw,sync,no_subtree_check)
+```
+
+<img width="813" height="311" alt="image" src="https://github.com/user-attachments/assets/edd5b65d-e057-47fa-83f2-7e131bfcce2d" />
+
+### I reiniciem el servei
+
+```bash
+systemctl restart nfs-kernel-server
+```
+### Ara haurem de desmuntar el recurs amb la següent comanda:
+
+```bash
+umount -t nfs 192.168.56.106:/srv/nfs/admin_tools /mnt/admin_tools
+```
+<img width="640" height="116" alt="image" src="https://github.com/user-attachments/assets/1f56d36d-bcab-41a7-bcb3-04b57348d767" />
+
+### I ara el muntem:
+
+```bash
+mount -t nfs 192.168.56.106:/srv/nfs/admin_tools /mnt/admin_tools
+```
+<img width="641" height="65" alt="image" src="https://github.com/user-attachments/assets/ec2432ee-df61-4224-a715-bb38d280d3d9" />
+
+### Ara creem un nou arxiu File 2:
+
+```bash
+touch /mnt/admin_tools/file2
+```
+<img width="641" height="65" alt="image" src="https://github.com/user-attachments/assets/f23b13e3-ae9f-40a6-89be-4be530728647" />
+
+## Fase 4
+
+### Modifiquem un altre cop l'arxiu /etc/exports i canviem les dos últimes línies per les següents:
+
+```bash
+/srv/nfs/dev_projects 192.168.56.0/24(rw,sync,no_subtree_check)
+/srv/nfs/dev_projects 192.168.56.140(ro,sync,no_subtree_check)
+```
+<img width="817" height="334" alt="image" src="https://github.com/user-attachments/assets/4f55d530-eb34-4969-967b-56e71ab4879c" />
 
 
