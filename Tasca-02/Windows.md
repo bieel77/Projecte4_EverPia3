@@ -146,9 +146,9 @@ Escollim l'idioma que vulguem, i seguim amb l'instal·lació
 
 <img width="992" height="576" alt="image" src="https://github.com/user-attachments/assets/f5bcd056-3c47-4cb6-93e3-869f1724c1f6" />
 
-### Marquem el Home també i premem a "Continue"
+### Marquem el My Documents i premem a "Continue"
 
-<img width="984" height="556" alt="image" src="https://github.com/user-attachments/assets/50522a9a-a1c7-40c9-9f3c-1eb59e81cb30" />
+<img width="995" height="565" alt="Captura de pantalla 2025-12-11 173756" src="https://github.com/user-attachments/assets/c326f95e-a6f6-45da-aa65-1a7df7f80151" />
 
 ### Ara fiquem que fara un BackUp cada dia a les 18:00 
 
