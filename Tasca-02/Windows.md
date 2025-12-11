@@ -128,9 +128,11 @@ Escollim l'idioma que vulguem, i seguim amb l'instal·lació
 
 <img width="991" height="564" alt="image" src="https://github.com/user-attachments/assets/50aebd69-de7a-4d9d-849e-93aefb365784" />
 
-### I creem la carpeta Prova 
+### I creem la carpeta Prova, i dintre de la carpeta creem un arxiu .txt 
 
 <img width="1012" height="692" alt="image" src="https://github.com/user-attachments/assets/3391fe25-a46b-4c64-9c7d-b0a1e82234f0" />
+
+<img width="804" height="423" alt="image" src="https://github.com/user-attachments/assets/a3237d2e-99e7-4cbd-979f-64ac39007e26" />
 
 ### Ara creerem un altre BackUp per Google Drive, començant per aplicant-li un nom
 
@@ -160,7 +162,59 @@ Escollim l'idioma que vulguem, i seguim amb l'instal·lació
 
 ## Restauració carpeta Documents
 
+### Eliminem la carpeta de Prova, i anem a provar a fer la restauració
 
+<img width="1004" height="648" alt="image" src="https://github.com/user-attachments/assets/112e965b-5f27-4a80-a3e0-63ea4a595a51" />
 
+### Anem a "Start" a "Restores"
 
+<img width="998" height="361" alt="image" src="https://github.com/user-attachments/assets/65cc2432-8280-4e10-a4ca-3621aa704fda" />
 
+### Premem "Restore"
+
+<img width="690" height="105" alt="Captura de pantalla 2025-12-11 170526" src="https://github.com/user-attachments/assets/9a67b2be-582e-4a4b-ba7b-700579ec86d4" />
+
+### I seleccionem la carpeta per restaurar, i "Continue"
+<img width="479" height="36" alt="image" src="https://github.com/user-attachments/assets/a822c75d-1a23-4038-b166-0d54642663fe" />
+
+### a "Submit"
+
+<img width="590" height="472" alt="image" src="https://github.com/user-attachments/assets/10a55ce2-0db7-4b51-8367-c198e5852d92" />
+
+### I ja la tindriem feta
+
+<img width="981" height="551" alt="image" src="https://github.com/user-attachments/assets/2f588911-d489-4d48-8e02-d828aafaa6c6" />
+
+<img width="985" height="642" alt="image" src="https://github.com/user-attachments/assets/eef25155-8353-4584-941e-4818f5051f31" />
+
+### Ara passem a fer-la amb Google Drive
+
+### Anem a editar el BackUp del Google Drive
+
+<img width="966" height="240" alt="image" src="https://github.com/user-attachments/assets/7f10d856-f731-426c-9709-d271cd9395b1" />
+
+### Establim el nom de la carpeta on es guardarà al Google Drive, i premem a AuthID
+
+<img width="1001" height="526" alt="image" src="https://github.com/user-attachments/assets/836dcb3c-86a4-46a8-af33-0f589358ae56" />
+
+### Ara hauràs de connectar el teu compte de Google Drive
+
+<img width="445" height="656" alt="image" src="https://github.com/user-attachments/assets/194ed312-9584-4ced-8f28-d8e9948c2e4a" />
+
+### Un cop connectada, et sortirà la contrasenya de AuthID i prem a "Continue"
+
+<img width="998" height="569" alt="image" src="https://github.com/user-attachments/assets/d5b15a49-b772-4bb2-a4dd-5628b20bf267" />
+
+### Seleccionem la carpeta "My Documents" i premem "Continue"
+
+<img width="995" height="565" alt="image" src="https://github.com/user-attachments/assets/e56a4018-962c-46c8-abbf-b0bb3fddf3dc" />
+
+### Tornem al inici i fem la prova prenent a "Start"
+
+<img width="966" height="236" alt="image" src="https://github.com/user-attachments/assets/763b38f8-8f9a-4434-ac74-a014504305f1" />
+
+### I veurem la carpeta creada Documents, amb els arxius del BackUp 
+
+<img width="674" height="456" alt="image" src="https://github.com/user-attachments/assets/25099179-6683-4a4a-a330-e9e1de60a2ae" />
+
+<img width="697" height="460" alt="image" src="https://github.com/user-attachments/assets/b3cb6880-bdfb-498d-a50c-ab0ea25283f8" />
