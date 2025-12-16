@@ -129,15 +129,54 @@ ls
 rm arxiu*
 ```
 
-### I fem la restauració
+### I fem la restauració, abans fes: cd /media/backup i escriu la comanda
 
 ```bash
 sudo duplicity restore file:///media/backup/ /home/usuari
 ```
 
+<img width="801" height="192" alt="image" src="https://github.com/user-attachments/assets/ee1bd180-58c3-4656-bc64-33f35f32ffb4" />
+
+
 ### I veiem que s'han restaurat correctament:
 
 <img width="333" height="39" alt="image" src="https://github.com/user-attachments/assets/9ee6ad3a-5055-4650-90a9-42981067ef5c" />
 
+## 6. Afegir un nou arxiu de 4Mb
 
+### Afegim el nou arxiu
+
+```bash
+fallocate -l 4MB arxiu55
+```
+
+<img width="449" height="56" alt="image" src="https://github.com/user-attachments/assets/9ecb4c9b-73d4-471a-9c62-c92bed28f494" />
+
+### Fem una altre còpia on només detecta un arxiu nou i fa una còpia incremental
+
+```bash
+sudo duplicity /home/ file:///media/backup/
+```
+
+<img width="927" height="455" alt="image" src="https://github.com/user-attachments/assets/e25897fb-ffae-4b93-8b54-c3b893b9a1c1" />
+
+### I desmuntem la unitat del backup
+
+```bash
+sudo umount /media/backup
+```
+
+## 7. Creem l'script fullbackup.sh
+
+```bash
+!/bin/bash
+
+export PASSPHRASE="usuariusuari1234"
+
+mount /dev/sdb1 /media/backup
+
+duplicity full /home file:///media/backup/homebackup
+
+umount /media/backup
+```
 
