@@ -300,6 +300,69 @@ touch /mnt/admin_tools/file2
 ```
 <img width="817" height="334" alt="image" src="https://github.com/user-attachments/assets/4f55d530-eb34-4969-967b-56e71ab4879c" />
 
+### Reiniciem el servei amb la següent comanda:
 
+```bash
+systemctl restart nfs-kernel-server
+```
+<img width="612" height="113" alt="image" src="https://github.com/user-attachments/assets/27b31f26-cdd7-4e05-9767-a22b381c3947" />
 
+### Ara anem al Zorin i creem una carpeta amb el següent nom:
 
+```bash
+mkdir /mnt/dev_projects
+```
+
+### Ara canviem la nostre ip per la següent:
+
+<img width="757" height="459" alt="image" src="https://github.com/user-attachments/assets/8227d327-52a2-43be-813c-916d2eb67bf9" />
+
+### I creem l'arxiu file4 a la carpeta creada anteriorment, en l'usuari de dev01
+
+```bash
+touch file4
+```
+<img width="425" height="24" alt="image" src="https://github.com/user-attachments/assets/bda36d8f-19cc-4891-ac3a-49f07d023de4" />
+
+<img width="372" height="35" alt="image" src="https://github.com/user-attachments/assets/d41101b9-867b-460e-a45d-e2cc241a58d3" />
+
+### Ara tornem a canviar la ip i ens hauria de sortir accés denegat desde l'usuari de admin01 al crear un file a la carpeta
+
+<img width="751" height="577" alt="Captura de pantalla 2025-12-17 203258" src="https://github.com/user-attachments/assets/37b6393e-61ac-46cc-be3a-ce5542d19960" />
+
+```bash
+touch /mnt/dev_projects/file15
+```
+
+<img width="693" height="35" alt="image" src="https://github.com/user-attachments/assets/f235537e-e1f9-4c78-8180-bf1f5bb09823" />
+
+## Fase 5
+
+### Ara editarem l'arxiu /etc/fstab perque no s'hagi de crear els recursos sempre que entrem
+
+```bash
+sudo nano /etc/fstab
+```
+
+### I afegirem això al final
+
+```bash
+192.168.56.106:/srv/nfs/admin_tools /mnt/admin_tools nfs defaults 0 0
+192.168.56.106:/srv/nfs/dev_projects /mnt/dev_projects nfs defaults 0 0
+```
+
+<img width="643" height="459" alt="image" src="https://github.com/user-attachments/assets/f04cbda6-f84b-4c2f-afd7-6014bca8db67" />
+
+### Reiniciem i mirem que s'hagi creat bé
+
+```bash
+ls -l /mnt/
+```
+
+<img width="429" height="73" alt="image" src="https://github.com/user-attachments/assets/aa6a5a89-e4ff-4d20-8fed-1ea12f7e29c3" />
+
+## Conclusió
+
+### Un dels principals inconvenients és que la creació d’usuaris i grups s’ha de fer manualment tant al servidor com a cada màquina client. Aquest procediment no és gens pràctic en un entorn real.
+
+Una millora clara seria implementar un sistema de gestió centralitzada, on tota la informació dels usuaris i grups estigués ubicada en un únic punt.
