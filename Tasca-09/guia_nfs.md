@@ -289,7 +289,6 @@ mount -t nfs 192.168.56.106:/srv/nfs/admin_tools /mnt/admin_tools
 ```bash
 touch /mnt/admin_tools/file2
 ```
-<img width="641" height="65" alt="image" src="https://github.com/user-attachments/assets/f23b13e3-ae9f-40a6-89be-4be530728647" />
 
 ## Fase 4
 
@@ -300,5 +299,7 @@ touch /mnt/admin_tools/file2
 /srv/nfs/dev_projects 192.168.56.140(ro,sync,no_subtree_check)
 ```
 <img width="817" height="334" alt="image" src="https://github.com/user-attachments/assets/4f55d530-eb34-4969-967b-56e71ab4879c" />
+
+
 
 
