@@ -50,6 +50,6 @@ La tasca d'avui és una **Prova de Concepte (PoC)** interna que servirà de base
 
 ## Solució
 
-A l'arxiu [solució.md](solucio.md)
+A l'arxiu [solució](solucio.md)
 
 [Torna a la pàgina del projecte](../README.md)
