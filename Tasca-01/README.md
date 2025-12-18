@@ -129,9 +129,11 @@ Com es garanteix que les dades de Comptabilitat/Clients compleixen amb:
 
 ##Solució
 
-  A l'arxiu [de la solució](fase1_individual.md)
-  A l'arxiu [de la solució](fase2_parelles.md)
-  A l'arxiu [de la solució](fase1_grupal.md)
+  A l'arxiu [de la solució individual](fase1_individual.md)
+
+  A l'arxiu [de la solució parelles](fase2_parelles.md)
+ 
+  A l'arxiu [de la solució grupal](fase3_grupal.md)
 ---
 ## Entregues
 [Treball 1: Individual](fase1_individual.md)
