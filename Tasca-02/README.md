@@ -68,3 +68,5 @@ Un aspecte molt important a nivell de seguretat és que la unitat de backup ha d
 ---
 [Guia Windows](Windows.md)
 ---
+
+[Torna a la pàgina del projecte](../README.md)
