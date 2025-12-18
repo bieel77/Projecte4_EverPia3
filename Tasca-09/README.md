@@ -44,3 +44,10 @@ En aquest repositori tens la descripció de la tasca a realitzar:
   NFS (parte 1): Instalación en un servidor Ubuntu 20.04 LTS. SomeBooks.es  
   [https://somebooks.es/nfs-parte-1-instalacion-en-un-servidor-ubuntu-20-04-lts/](https://somebooks.es/nfs-parte-1-instalacion-en-un-servidor-ubuntun un cliente Ubuntu 20.04 LTS*. SomeBooks.es
 
+## Solució
+
+A l'arxiu [guia d'instal·lació Ubuntu](guia_instal·lacio_ubuntu_server.md)
+
+A l'arxiu [guia NFS](guia_nfs.md)
+
+[Torna a la pàgina del projecte](../README.md)
