@@ -80,6 +80,6 @@
 
 ## Solució
 
-A l'arxiu [solució](solucio.md)  hi ha la solució de la tasca
+A l'arxiu [solució](solucio.md)
 
 [Torna a la pàgina del projecte](../README.md)
