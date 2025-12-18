@@ -129,12 +129,6 @@ Com es garanteix que les dades de Comptabilitat/Clients compleixen amb:
 
 ## Solució
 
-  A l'arxiu [de la solució individual](fase1_individual.md)
-
-  A l'arxiu [de la solució parelles](fase2_parelles.md)
- 
-  A l'arxiu [de la solució grupal](fase3_grupal.md)
-
 ## Entregues
 [Treball 1: Individual](fase1_individual.md)
 ---
@@ -142,3 +136,5 @@ Com es garanteix que les dades de Comptabilitat/Clients compleixen amb:
 ---
 [Treball 3: Grupal](fase3_grupal.md)
 ---
+
+[Torna a la pàgina del projecte](../README.md)
