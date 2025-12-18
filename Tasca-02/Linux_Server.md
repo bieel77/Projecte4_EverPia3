@@ -187,7 +187,7 @@ sudo chmod +x incrementalbackup.sh
 ```
 <img width="481" height="31" alt="image" src="https://github.com/user-attachments/assets/bf63a1d0-fcb7-4974-a632-0eaa2df72787" />
 
-## Programació del clon
+## 8. Programació del clon
 
 ### I programem perque executi el backup de dilluns a dissabte a les 23h
 
