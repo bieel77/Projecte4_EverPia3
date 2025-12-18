@@ -180,3 +180,25 @@ duplicity full /home file:///media/backup/homebackup
 umount /media/backup
 ```
 
+### I donem els permisos d'execució
+
+```bash
+sudo chmod +x incrementalbackup.sh
+```
+<img width="481" height="31" alt="image" src="https://github.com/user-attachments/assets/bf63a1d0-fcb7-4974-a632-0eaa2df72787" />
+
+## Programació del clon
+
+### I programem perque executi el backup de dilluns a dissabte a les 23h
+
+```bash
+sudo crontab -e
+```
+
+### I premem  "1" per entrar al arxiu, i introduïm la següent informació a la part d'abaix del arxiu
+
+<img width="699" height="533" alt="image" src="https://github.com/user-attachments/assets/46af9750-2661-4a87-a680-32cd5f573e60" />
+
+
+
+
