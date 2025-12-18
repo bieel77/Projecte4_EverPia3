@@ -127,14 +127,14 @@ Com es garanteix que les dades de Comptabilitat/Clients compleixen amb:
   (YouTube, setembre 2017)  
   https://youtu.be/PM_M4Iz6I4o?si=F7DRyDDTZE3hjWn8
 
-##Solució
+## Solució
 
   A l'arxiu [de la solució individual](fase1_individual.md)
 
   A l'arxiu [de la solució parelles](fase2_parelles.md)
  
   A l'arxiu [de la solució grupal](fase3_grupal.md)
----
+
 ## Entregues
 [Treball 1: Individual](fase1_individual.md)
 ---
