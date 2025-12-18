@@ -4,8 +4,6 @@ Molt bé, equip. Fins ara hem vist eines per administrar servidors (SSH, RDP, VN
 
 Quan un client truca perquè "el PDF no s'obre", "li ha desaparegut una icona" o "la impressora no imprimeix", no li podem demanar que configuri una VPN o obri el port 3389 del seu router. Necessitem una eina d'assistència remota sota demanda: ràpida, fiable, segura i que funcioni en segons, fins i tot en xarxes restrictives.
 
-![Portada de la tasca 07](img/portadap4t7.png)
-
 La direcció d'EverPia ha decidit estandarditzar l'eina oficial que farem servir per a aquestes tasques de suport immediat. La vostra missió en parelles és analitzar el mercat i proposar la millor solució, per després crear la documentació que faran servir tant els nostres tècnics com els nostres clients.
 
 ## Fase 1: Anàlisi Comparativa i Selecció de la Solució
