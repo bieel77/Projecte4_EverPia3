@@ -28,6 +28,6 @@ Ha arribat el dia i ja esteu preparats per assolir el nivell de SOP Specialist, 
 
 ## Solució
 
-A l'arxiu [solucio](solució.md) 
+A l'arxiu [solució](solucio.md) 
 
 [Torna a la pàgina del projecte](../README.md)
