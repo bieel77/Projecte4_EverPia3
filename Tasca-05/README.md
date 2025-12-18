@@ -48,3 +48,8 @@ La tasca d'avui és una **Prova de Concepte (PoC)** interna que servirà de base
 - Moodle 0227 Serveis de Xarxa. UD4.AA2 Pràctica SSH  
 - Vídeo: *SSH amb clau pública/privada* (link)
 
+## Solució
+
+A l'arxiu [solució.md](solucio.md)
+
+[Torna a la pàgina del projecte](../README.md)
